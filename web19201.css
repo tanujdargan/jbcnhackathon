@@ -19,37 +19,37 @@
       
 
       .web19201 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      background-image: url("assets/web19201.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: auto;
-      overflow-y: auto;
-      background-color: rgba(255, 255, 255, 1);
-      width: 1920.00px;
-    height: 4000.00px;
-    left: 0px;
-    top: 0px;
+          background: linear-gradient(17deg, #2c5364, #203a43, #0f2027);
+          background-size: 600% 600%;
+          -webkit-animation: AnimationName 10s ease infinite;
+          -moz-animation: AnimationName 10s ease infinite;
+          -o-animation: AnimationName 10s ease infinite;
+          animation: AnimationName 10s ease infinite;
+        }
+        @-webkit-keyframes AnimationName {
+          0%{background-position:47% 0%}
+          50%{background-position:54% 100%}
+          100%{background-position:47% 0%}
+        }
+        @-moz-keyframes AnimationName {
+          0%{background-position:47% 0%}
+          50%{background-position:54% 100%}
+          100%{background-position:47% 0%}
+        }
+        @-o-keyframes AnimationName {
+          0%{background-position:47% 0%}
+          50%{background-position:54% 100%}
+          100%{background-position:47% 0%}
+        }
+        @keyframes AnimationName {
+          0%{background-position:47% 0%}
+          50%{background-position:54% 100%}
+          100%{background-position:47% 0%}
+        
+      /*width: 1920.00px;
+    #height: 4000.00px;
+    #left: 0px;
+    top: 0px*/
 
 }
 
