@@ -1,8 +1,8 @@
 body {
 	background: linear-gradient(-90deg, #2c5364, #203a43, #0f2027);
-	background-size: 400% 400%;
+	background-size: 400% 690%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 4000px;
 }
 
 @keyframes gradient {
@@ -19,15 +19,15 @@ body {
 
 html {
 	height: 4000px;
-	width: 100%;
+	width: 100vw;
   }
 
   body {
 	font-family: Avenir, Arial;
 	margin: 0;
 	padding: 0;
-	height: 100%;
-	width: 100%;
+	height: 4000px;
+	width: 100vw;
 	-webkit-font-smoothing: antialiased;
 	overflow: -moz-scrollbars-none;
 	-ms-overflow-style: none;
@@ -158,7 +158,6 @@ a:hover {
 transform-origin: center;
   opacity: 1;
   cursor: default;
-  background-color: rgba(255, 255, 255, 0);
   text-align: left;
   white-space: pre;
   width: 200.00px;
@@ -166,4 +165,21 @@ transform-origin: center;
   left: 175.00px;
   top: 602.00px;
   
+}
+
+.lottieno2
+{
+  position: absolute;
+  box-sizing: content-box;
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  text-align: left;
+  white-space: pre;
+  width: 200.00px;
+  height: 1700.00px;
+  left: 175.00px;
+  top: 1000.00px; 
 }

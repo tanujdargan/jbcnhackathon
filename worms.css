@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  height: 100vh;
-  overflow: hidden;
+  height: 4000px;
+  overflow:visible;
+  overflow-x: hidden;
   background: black;
 }
