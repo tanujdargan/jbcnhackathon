@@ -181,5 +181,21 @@ transform-origin: center;
   width: 200.00px;
   height: 1700.00px;
   left: 175.00px;
-  top: 1000.00px; 
+  top: 750.00px; 
+}
+.schoollogo
+{
+  position: absolute;
+  box-sizing: content-box;
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  text-align: left;
+  white-space: pre;
+  width: 200.00px;
+  height: 1700.00px;
+  left: 175.00px;
+  top: 200.00px; 
 }
