@@ -30,7 +30,7 @@ document.body.addEventListener('click', () => {
   opt.s2 = rand(20, 90);
   opt.l1 = rand(30, 80);
   opt.l2 = rand(30, 80);
-  opt.angle += deg(random(30, 30)) * (Math.random() > .5 ? 1 : -1);
+  opt.angle += deg(random(0, 0)) * (Math.random() > .5 ? 1 : -1);
 
   for (let p of Particles) {
     p.randomize();
