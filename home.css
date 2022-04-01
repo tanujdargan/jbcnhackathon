@@ -1,9 +1,10 @@
-body {
+/*body {
 	background: linear-gradient(-90deg, #2c5364, #203a43, #0f2027);
 	background-size: 400% 690%;
 	animation: gradient 15s ease infinite;
 	height: 4000px;
 }
+
 
 @keyframes gradient {
 	0% {
@@ -16,7 +17,7 @@ body {
 		background-position: 0% 50%;
 	}
 }
-
+*/
 html {
 	height: 4000px;
 	width: 100vw;
@@ -198,4 +199,31 @@ transform-origin: center;
   height: 1700.00px;
   left: 200.00px;
   top: 185.00px; 
+}
+
+.textbesidelottie
+{
+  position: absolute;
+  box-sizing: content-box;
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  letter-spacing: 2.60px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 14.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Avenir, Arial;
+  text-decoration: none;
+  white-space: pre;
+  width: 200.00px;
+  height: 17.00px;
+  right: 730.00px;
+  top: 800.00px;
 }

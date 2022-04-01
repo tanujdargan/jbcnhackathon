@@ -62,7 +62,7 @@ class Particle {
     this.hueSemen = Math.random();
     this.hue = this.hueSemen > .5 ? 20 + opt.h1 : 20 + opt.h2;
     this.sat = this.hueSemen > .5 ? opt.s1 : opt.s2;
-    this.light = this.hueSemen > .5 ? opt.l1 : opt.l2;
+    this.light = this.hueSemen > .1 ? opt.l1 : opt.l2;
     this.maxSpeed = this.hueSemen > .5 ? 3 : 2;
   }
 
@@ -130,7 +130,7 @@ class Particle {
 Setup
 --------------------*/
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 4000);
   for (let i = 0; i < opt.particles; i++) {
     Particles.push(new Particle(Math.random() * width, Math.random() * height));
   }
@@ -143,7 +143,7 @@ Draw
 --------------------*/
 function draw() {
   time++;
-  background(0, 100 - opt.tail);
+  background(0, 86 - opt.tail);
 
   for (let p of Particles) {
     p.update();
