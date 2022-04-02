@@ -8,11 +8,30 @@
         <link rel="stylesheet" href="./home/worms.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
         <link rel="stylesheet" href="./home/navbar.css">
+        <link rel="stylesheet" href="./home/countdown.css">
         <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/tanujdargan/jbcnhackathon/main/assets/logo%20jbcn.png">
     </head>
     <body>
         <<!-- partial:index.partial.html -->
 <div id="root"></div>
+<ul id="countdown">
+    <li id="days">
+      <div class="number">00</div>
+      <div class="label">Days</div>
+    </li>
+    <li id="hours">
+      <div class="number">00</div>
+      <div class="label">Hours</div>
+    </li>
+    <li id="minutes">
+      <div class="number">00</div>
+      <div class="label">Minutes</div>
+    </li>
+    <li id="seconds">
+      <div class="number">00</div>
+      <div class="label">Seconds</div>
+    </li>
+  </ul>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js'></script>
@@ -55,6 +74,9 @@ under one of the themes.
         <script src='https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js'></script>
 <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="./home/navbar.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="./home/countdown.js"></script>
+
     </body>
     </html>
             
