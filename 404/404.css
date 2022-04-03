@@ -1,0 +1,20 @@
+body {
+	margin:0;
+	background:#000;
+}
+
+p {
+	font-size: 15px;
+  text-align: justify;
+  font-weight: bold;
+  font-family: sans-serif;
+  min-height: 100vh;
+	max-width:800px;
+	margin:0 auto;
+  color: transparent;
+  background: url(https://media.giphy.com/media/Ju7l5y9osyymQ/giphy.gif) center/cover;
+ -webkit-background-clip: text;
+  background-clip: text;
+  word-spacing: 0px;
+  letter-spacing: -1px;
+}
