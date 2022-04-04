@@ -1,0 +1,31 @@
+html {
+	height: 4000px;
+	width: 100vw;
+  }
+
+  body {
+	font-family: Avenir, Arial;
+	margin: 0;
+	padding: 0;
+	height: 4000px;
+	width: 100vw;
+	-webkit-font-smoothing: antialiased;
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
+    background-color: black;
+  }
+
+  h1
+  {
+      color: aliceblue;
+  }
+
+.form-group
+{
+    color: aliceblue;
+    background-color: black;
+}
+.form-control
+{
+    background-color: black;
+}
