@@ -7,27 +7,27 @@ Items
 const items = [
 {
   name: "Home",
-  color: "#f44336",
+  color: "#5b3a85",
   href: "index.html" },
 
 {
   name: "About Us",
-  color: "#e91e63",
+  color: "#5b3a85",
   href: "./about/about.html" },
 
 {
   name: "Learn More",
-  color: "#9c27b0",
-  href: "./learnmore/learnmore.html" },
+  color: "#5b3a85",
+  href: "/learnmore/learnmore.html" },
 
 {
   name: "Contact Us",
-  color: "#673ab7",
+  color: "#5b3a85",
   href: "./contact/contact.html" },
 
 {
   name: "Register",
-  color: "#3f51b5",
+  color: "#5b3a85",
   href: "./register/register.html" }];
 
 
