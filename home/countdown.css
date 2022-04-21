@@ -14,10 +14,10 @@ body {
 }
 
 ul#countdown {
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(0%);
-  transform: translateX(40%);
+  transform: translateX(90%);
   width: 50%;
   margin: 0 auto;
   padding: 15px 0 20px 0;
