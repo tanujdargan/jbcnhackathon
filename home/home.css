@@ -44,7 +44,7 @@ html {
       letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
       -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 50.00px;
+      font-size: 5vh;
       font-weight: 700;
     font-style: normal;
       font-family: 'Playfair Display', Arial;
@@ -53,8 +53,8 @@ html {
       overflow-x: unset;
       overflow-y: unset;
       white-space: pre;
-      width: 458.00px;
-    height: 250.00px;
+      width: 4.5vh;
+    height: 2.5vh;
     left: 86.00px;
     top: 430.00px;
     
